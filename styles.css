@@ -1,0 +1,23 @@
+section{
+    text-align: center;
+    background-image:url("https://images.unsplash.com/photo-1565945887714-d5139f4eb0ce?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c21pbGV5fGVufDB8fDB8fHww&w=1000&q=80") ;
+}
+
+.game--container{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    
+    width: 300px;
+    margin: 50px auto;
+}
+
+.cell{
+    font-family: "permanat marker" , cursive;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    cursor: pointer;
+    font-size: 60px;
+    line-height: 100px;
+    border-radius: 20px;
+}
